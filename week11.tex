@@ -1,0 +1,83 @@
+\documentclass{report}
+
+\input{preamble}
+\input{macros}
+\input{letterfonts}
+
+\usepackage{mathtools}
+
+\title{\Huge{Discrete Mathematics}\\Week 11}
+\author{\huge{Abeyah Calpatura}}
+\date{}
+
+\begin{document}
+\maketitle
+\section*{9.1}
+\subsection*{Exercises} \\
+\text{Abeyah Calpatura} \\
+\#4, 7, 11, 19 \\
+
+\noindent \textbf{\#4}
+\sol{ The event that the chosen card is black and has an even number on it. 
+\begin{align*}
+        & \text{Black cards consist of spades and clubs, which are 26 cards in total which is the number of possible outcomes} \\
+        & \text{Even numbers consist of 2, 4, 6, 8, 10 meaning 5 favorable outcomes} \\
+        & \text{$P(E) = \: \frac{\text{# of favorable outcomes}}{\text{# of possible outcomes}}  = \frac{5}{26}  = 19.23\%$}
+\end{align*}
+}
+
+\noindent \textbf{\#7}
+\sol{ The even that the sum of numbers showing face up is 8. 
+\vspace{4cm}
+    \begin{align*}
+        & \text{$P(E) = \frac{\text{# of favorable outcomes}}{\text{# of possible outcomes}} = \frac{5}{36} = 13.89\% $}
+    \end{align*}
+}
+
+\noindent \textbf{\#11} \\
+Suppose that a coin is tossed three times and the side showing face up on each toss is noted. Suppose also that on each toss heads and tails are equally likely. Let HHT indicate the outcome heads on the first two tosses and tails on the third, THT the outcome tails on the first and third tosses and heads on the second, and so forth. \\
+\textbf{a.}
+\sol{ Eight elements in the sample space whose outcomes are all the possible head-tail sequences obtained sequences obtained in the three tosses.
+\begin{align*}
+    & S = \{HHH, HHT, HTH, HTT, THH, THT, TTH, TTT\} \\
+    & \text{The number of elements in the sample space is 8.}
+\end{align*}
+}
+\textbf{bi.}
+\sol{ The event that exactly one toss results in a head.
+\begin{align*}
+    & E = \{HTT, THT, TTH\} \\
+    & \text{The number of elements in the event is 3.} \\
+    & \text{The probability of the event is $P(E) = \frac{3}{8} = 37.5\%$} \\
+\end{align*}
+}
+\textbf{bii.}
+\sol{ The event that at least two tosses result in a head.
+\begin{align*}
+    & E = \{HHT, HTH, THH, HHH\} \\
+    & \text{The number of elements in the event is 4.} \\
+    & \text{The probability of the event is $P(E) = \frac{4}{8} = 50\%$} \\
+\end{align*}
+}
+\textbf{biii.}
+\sol{ The event that no head is obtained.
+\begin{align*}
+    & E = \{TTT\} \\
+    & \text{The number of elements in the event is 1.} \\
+    & \text{The probability of the event is $P(E) = \frac{1}{8} = 12.5\%$} \\
+\end{align*}
+}
+
+\noindent \textbf{\#19}
+An urn contains two blue balls (denoted as $B_1$ and $B_2$) and three white balls (denoted $W_1$, $W_2$, and $W_3$). One ball is drawn, its color is recorded, and it is replaced in the urn. Then another ball is drawn and its color is recorded. \\
+\textbf{a.}
+\sol{ List all possible 25 possible outcomes of the experiment.
+\begin{align*}
+    & S = \{B_1B_1, B_1B_2, B_2B_1, B_1W_1, W_1B_1, B_1W_2, W_2B_1, B_1W_3, W_3B_1, B_2B_2, B_2W_1, W_1B_2, B_2W_2, \\
+    & W_2B_2, B_2W_3, W_3B_2, W_1W_1, W_1W_2, W_2W_1, W_1W_3, W_3W_1, W_2W_2, W_2W_3, W_3W_2, W_3W_3\} \\
+    & \text{The number of elements in the sample space is 25.}
+\end{align*}
+}
+
+
+\end{document}
